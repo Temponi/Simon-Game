@@ -3,20 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Weather Zipline V2</title>
+    <title>Simon Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <!--
-        Codigo aqui
-    -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <br>
+    <div class="container" align="center">
+        <h1 class="text-center">Simon Game</h1>
+        <div class="container" align="center">
+            <div class="panel panel-default" id="panel">
+                <div class="panel-heading text-center">Score</div>
+                <div class="panel-body text-center">00</div>
+            </div>
+
+            <button class="btn btn-default" id="start">Start</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6">
+                        <div id="vermelho"></div>
+                        <div id="verde"></div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                        <div id="azul"></div>
+                        <div id="amarelo"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
 
 </body>
