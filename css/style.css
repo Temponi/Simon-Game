@@ -1,44 +1,98 @@
-.panel {
-    width: 100px;
-}
-
 body {
-    background-color: #222;
+    background-color: #AAA;
+    margin: 0;
 }
 
 .container {
-    background-color: white;
-    width: 50%;
+    margin: auto;
 }
 
-#panel {
-    display: inline;
+#title {
+    font-size: 60px;
+    font-family: 'Baloo', sans-serif;
+    color: #44F;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#score {
+    font-family: 'Gloria Hallelujah', sans-serif;
+    margin-top: 2px;
 }
 
 #start {
-    display: inline;
+    width: 100px;
+    height: 80px;
+    font-size: 18px;
+    font-family: 'Baloo', sans-serif;
+    background-color: #555;
+    color: white;
+    border: 0;
+    border-radius: 15px;
 }
 
-#vermelho {
+#red {
+    width: 150px;
+    height: 150px;
     background-color: red;
-    width: 50px;
-    height: 50px;
+    border: 3px black solid;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
 }
 
-#azul {
-    background-color: blue;
-    width: 50px;
-    height: 50px;
+#yellow {
+    width: 150px;
+    height: 150px;
+    background-color: #EE0;
+    border: 3px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
 }
 
-#verde {
+#blue {
+    width: 150px;
+    height: 150px;
+    background-color: #00C;
+    border: 3px black solid;
+    border-right: 2px black solid;
+    border-top: 2px black solid;
+}
+
+#green {
+    width: 150px;
+    height: 150px;
     background-color: green;
-    width: 50px;
-    height: 50px;
+    border: 3px black solid;
+    border-left: 2px black solid;
+    border-top: 2px black solid;
 }
 
-#amarelo {
-    background-color: yellow;
-    width: 50px;
-    height: 50px;
+#red:hover {
+    background-color: #F22;
+}
+
+#yellow:hover {
+    background-color: #FF2;
+}
+
+#blue:hover {
+    background-color: #22D;
+}
+
+#green:hover {
+    background-color: #090;
+}
+
+#divButton1,
+#divButton2,
+#divButton3,
+#divButton4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
 }
